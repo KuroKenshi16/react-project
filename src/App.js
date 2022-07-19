@@ -1,10 +1,14 @@
 import './App.css'
-import Pessoa from './components/Pessoa'
+import Evento from './components/Evento'
+import Form from './components/Form'
 
 function App() {
   return (
     <div className="App">
-     <Pessoa nome="Igor" idade="17" profiss="Estigiario T.I" hob="Video-Game" foto="https://via.placeholder.com/150" />
+      <h1>Testando Eventos</h1>
+      <Evento numero="1"/>
+      <Evento numero="2"/>
+      <Form />
     </div>
   )
 }
